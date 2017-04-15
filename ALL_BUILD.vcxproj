@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2EA7DF22-2C31-30C9-9EE2-3C5D09D801B5}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt">
+     <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCCompiler.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckCXXSourceRuns.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\ConfigureScripts.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\options.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\CheckPlatform.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\platform\win\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\compiler\msvc\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\GroupSources.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\AutoCollect.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindPCHSupport.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindMySQL.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindGit.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\EnsureVersion.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\genrev.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\showoptions.cmake;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCCompiler.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckCXXSourceRuns.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\ConfigureScripts.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\options.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\CheckPlatform.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\platform\win\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\compiler\msvc\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\GroupSources.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\AutoCollect.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindPCHSupport.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindMySQL.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindGit.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\EnsureVersion.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\genrev.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\showoptions.cmake;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCCompiler.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckCXXSourceRuns.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\ConfigureScripts.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\options.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\CheckPlatform.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\platform\win\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\compiler\msvc\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\GroupSources.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\AutoCollect.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindPCHSupport.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindMySQL.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindGit.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\EnsureVersion.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\genrev.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\showoptions.cmake;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCCompiler.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeCXXCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\3.8.0-rc1\CMakeRCCompiler.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCXXInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Compiler\MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-CXX.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckCXXSourceRuns.cmake;K:\Program Files\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\ConfigureScripts.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\options.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\CheckPlatform.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\platform\win\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\compiler\msvc\settings.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\GroupSources.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\AutoCollect.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindPCHSupport.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindMySQL.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\FindGit.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\macros\EnsureVersion.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\genrev.cmake;D:\SingleCore_TC_WotLK_Orig\Source\cmake\showoptions.cmake;D:\SingleCore_TC_WotLK_Orig\Source\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\ZERO_CHECK.vcxproj">
+      <Project>4243996B-82BE-3E4A-9238-163DB338A1A0</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>572A0F31-F6C4-32B9-9882-84F4D0D84BFF</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\recastnavigation\Recast\Recast.vcxproj">
+      <Project>4B449B7A-AC06-39C5-88A0-9D7F68BA4C0C</Project>
+      <Name>Recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver\authserver.vcxproj">
+      <Project>2B3DC4B5-C862-33EC-BEBB-8BA3633F2894</Project>
+      <Name>authserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\bzip2\bzip2.vcxproj">
+      <Project>CED2C582-7A1D-3440-8252-AD9D8AB1E73C</Project>
+      <Name>bzip2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\common\common.vcxproj">
+      <Project>81AD9C03-081A-3EF2-9FF9-B684CDCA7819</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\cppformat\cppformat.vcxproj">
+      <Project>C9C71127-21BD-34DA-9AB9-C9462B81D570</Project>
+      <Name>cppformat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\database.vcxproj">
+      <Project>23A66501-038B-3F95-A808-0200D4F5D40B</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>5D5400D9-0998-34FB-B77C-C261E7A30121</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\game.vcxproj">
+      <Project>9528CD26-1908-3624-9728-ACF30661BEFE</Project>
+      <Name>game</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\gsoap\gsoap.vcxproj">
+      <Project>48500CEB-D8C3-38BA-AC15-67A82BCB3666</Project>
+      <Name>gsoap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\lualib\lualib.vcxproj">
+      <Project>22677D41-7FDD-3BF7-BF40-1D58CD5C5E0A</Project>
+      <Name>lualib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\tools\map_extractor\mapextractor.vcxproj">
+      <Project>6D5227DD-502C-3589-80B4-3DBA9CE05747</Project>
+      <Name>mapextractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\tools\mmaps_generator\mmaps_generator.vcxproj">
+      <Project>2C1480B1-4433-3717-9787-6AE04F20830E</Project>
+      <Name>mmaps_generator</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\libmpq\mpq.vcxproj">
+      <Project>48986A3A-D36A-3125-A239-1319B748B1FB</Project>
+      <Name>mpq</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\plugins\plugins.vcxproj">
+      <Project>44C1F113-7A59-3924-8182-4746EEC21E57</Project>
+      <Name>plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\genrev\revision_data.h.vcxproj">
+      <Project>0C69D4FB-49FE-3942-BA39-76A4E92EB9E9</Project>
+      <Name>revision_data.h</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\scripts\scripts.vcxproj">
+      <Project>37AB78BB-6A68-38F4-A949-87BEECD0E7E2</Project>
+      <Name>scripts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\shared\shared.vcxproj">
+      <Project>6299D559-DDD2-3875-9800-561D91F5BACD</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\tools\vmap4_assembler\vmap4assembler.vcxproj">
+      <Project>558D0FD0-0398-30A2-B9A9-C8FE9323EAA7</Project>
+      <Name>vmap4assembler</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\tools\vmap4_extractor\vmap4extractor.vcxproj">
+      <Project>5EA550AC-2FEC-3161-A4F9-6C14AA837E98</Project>
+      <Name>vmap4extractor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\worldserver\worldserver.vcxproj">
+      <Project>AD552D96-41E3-3E1B-8DCA-433FC7DCF317</Project>
+      <Name>worldserver</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\zlib\zlib.vcxproj">
+      <Project>5EA5D38C-175F-3FBC-B3C8-DD997E32D344</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

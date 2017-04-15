@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\genrev\CMakeLists.txt" />
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Build\CMakeFiles\e4a9026f7faaf260d1d0f09062f30684\revision_data.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\SingleCore_TC_WotLK_Orig\Build\src\genrev\CMakeFiles\revision_data.h">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADF6FE57-B70C-3D6A-93AD-0C3E97C1C0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AD68695D-BADA-3515-B5FE-06B1169ED9F7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

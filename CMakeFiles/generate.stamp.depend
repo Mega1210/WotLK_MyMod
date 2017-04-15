@@ -1,0 +1,38 @@
+# CMake generation dependency list for this directory.
+D:/SingleCore_TC_WotLK_Orig/Source/CMakeLists.txt
+D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/3.8.0-rc1/CMakeSystem.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake
+D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/3.8.0-rc1/CMakeCCompiler.cmake
+D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/3.8.0-rc1/CMakeCXXCompiler.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/WindowsPaths.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC-C.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC.cmake
+D:/SingleCore_TC_WotLK_Orig/Build/CMakeFiles/3.8.0-rc1/CMakeRCCompiler.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeRCInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCXXInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Compiler/MSVC-CXX.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC-CXX.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckCXXSourceRuns.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckIncludeFiles.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/ConfigureScripts.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/options.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/CheckPlatform.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/platform/win/settings.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/compiler/msvc/settings.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/GroupSources.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/AutoCollect.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/FindPCHSupport.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/FindMySQL.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/FindGit.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/EnsureVersion.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/genrev.cmake
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/showoptions.cmake

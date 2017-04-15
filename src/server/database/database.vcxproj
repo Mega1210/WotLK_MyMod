@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{23A66501-038B-3F95-A808-0200D4F5D40B}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>database</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\Debug\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">database.dir\Debug\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">database</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\Release\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">database.dir\Release\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">database</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\MinSizeRel\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">database.dir\MinSizeRel\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">database</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\RelWithDebInfo\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">database.dir\RelWithDebInfo\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">database</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>databasePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>databasePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_DATABASE;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build\src\server\database;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt">
+     <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/database/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/database/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/database/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/database/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/database/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\AdhocStatement.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseEnv.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseLoader.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseWorker.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseWorkerPool.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Field.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\MySQLConnection.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\MySQLThreading.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\PreparedStatement.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\QueryCallback.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\QueryHolder.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\QueryResult.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\SQLOperation.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Transaction.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\CharacterDatabase.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\LoginDatabase.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\WorldDatabase.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging\AppenderDB.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater\DBUpdater.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater\UpdateFetcher.h" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\PrecompiledHeaders\databasePCH.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">databasePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">databasePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\AdhocStatement.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseEnv.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseLoader.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseWorker.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\DatabaseWorkerPool.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Field.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\MySQLConnection.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\PreparedStatement.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\QueryHolder.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\QueryResult.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Transaction.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\CharacterDatabase.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\LoginDatabase.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation\WorldDatabase.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging\AppenderDB.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater\DBUpdater.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater\UpdateFetcher.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\ZERO_CHECK.vcxproj">
+      <Project>4243996B-82BE-3E4A-9238-163DB338A1A0</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>572A0F31-F6C4-32B9-9882-84F4D0D84BFF</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\common\common.vcxproj">
+      <Project>81AD9C03-081A-3EF2-9FF9-B684CDCA7819</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\cppformat\cppformat.vcxproj">
+      <Project>C9C71127-21BD-34DA-9AB9-C9462B81D570</Project>
+      <Name>cppformat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>5D5400D9-0998-34FB-B77C-C261E7A30121</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\lualib\lualib.vcxproj">
+      <Project>22677D41-7FDD-3BF7-BF40-1D58CD5C5E0A</Project>
+      <Name>lualib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\zlib\zlib.vcxproj">
+      <Project>5EA5D38C-175F-3FBC-B3C8-DD997E32D344</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

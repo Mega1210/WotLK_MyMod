@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\PrecompiledHeaders\commonPCH.cpp">
+      <Filter>PrecompiledHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Common.cpp" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\GitRevision.cpp" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\BoundingIntervalHierarchy.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\DynamicTree.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\MMapFactory.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\MMapManager.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\VMapFactory.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\VMapManager2.cpp">
+      <Filter>Collision\Management</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps\MapTree.cpp">
+      <Filter>Collision\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps\TileAssembler.cpp">
+      <Filter>Collision\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\GameObjectModel.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\ModelInstance.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\WorldModel.cpp">
+      <Filter>Collision\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration\BuiltInConfig.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration\Config.cpp">
+      <Filter>Configuration</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\ARC4.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\BigNumber.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\HMACSHA1.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\OpenSSLCrypto.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\SHA1.cpp">
+      <Filter>Cryptography</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication\AuthCrypt.cpp">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Appender.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\AppenderConsole.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\AppenderFile.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Log.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\LogOperation.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Logger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric\Metric.cpp">
+      <Filter>Metric</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\EventMap.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\EventProcessor.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Random.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\StartProcess.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\TaskScheduler.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Util.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\Errors.cpp">
+      <Filter>Debugging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Common.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\CompilerDefs.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Define.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\GitRevision.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\BoundingIntervalHierarchy.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\BoundingIntervalHierarchyWrapper.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\DynamicTree.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\RegularGrid.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\VMapDefinitions.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\VMapTools.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\IVMapManager.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\MMapFactory.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\MMapManager.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\VMapFactory.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management\VMapManager2.h">
+      <Filter>Collision\Management</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps\MapDefines.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps\MapTree.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps\TileAssembler.h">
+      <Filter>Collision\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\GameObjectModel.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\ModelInstance.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models\WorldModel.h">
+      <Filter>Collision\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration\BuiltInConfig.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration\Config.h">
+      <Filter>Configuration</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\ARC4.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\BigNumber.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\HMACSHA1.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\OpenSSLCrypto.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\SHA1.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\WardenKeyGeneration.h">
+      <Filter>Cryptography</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication\AuthCrypt.h">
+      <Filter>Cryptography\Authentication</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Appender.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\AppenderConsole.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\AppenderFile.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Log.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\LogOperation.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging\Logger.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric\Metric.h">
+      <Filter>Metric</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading\LockedQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading\MPSCQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading\ProcessPriority.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading\ProducerConsumerQueue.h">
+      <Filter>Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\ByteConverter.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Containers.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Duration.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\EventMap.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\EventProcessor.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\MessageBuffer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Random.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\StartProcess.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\StringFormat.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\TaskScheduler.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities\Util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\Errors.h">
+      <Filter>Debugging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Collision\Management">
+      <UniqueIdentifier>{5685DC19-1EA8-3825-9B6E-1EE686723AB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Maps">
+      <UniqueIdentifier>{1AB8E0A7-50AE-3537-B1FA-6DB2FD84E69E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\Models">
+      <UniqueIdentifier>{CCDE4865-C377-347E-93DF-A4227CB9F23C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography\Authentication">
+      <UniqueIdentifier>{49F41FEE-1FE6-3116-92D6-FD0696C23C97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{F255A79A-9B5C-327A-AD9C-4943F3823520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{B71A27DE-77D5-36D3-BAB9-41D6DE345A00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cryptography">
+      <UniqueIdentifier>{34982F76-784E-3B9B-B1ED-337EE9F96D50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debugging">
+      <UniqueIdentifier>{46609D76-7EBE-33C4-88F8-34A7514140E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{3B3F3F02-F884-31D9-8AD6-F83BC302897A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Metric">
+      <UniqueIdentifier>{16C28CAF-E43C-31EB-9C55-F72874F58384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrecompiledHeaders">
+      <UniqueIdentifier>{E8F9EA78-40D9-3AA4-8EF1-C6A5F694D4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Threading">
+      <UniqueIdentifier>{7BAE8428-8659-34B5-9F06-6F74207DA734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{AF3186E7-ED2D-342B-B8AD-4C90B1A730F1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

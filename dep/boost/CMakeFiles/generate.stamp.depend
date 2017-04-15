@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/SingleCore_TC_WotLK_Orig/Source/dep/boost/CMakeLists.txt
+D:/SingleCore_TC_WotLK_Orig/Source/cmake/macros/FindBoost.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckCXXSourceCompiles.cmake

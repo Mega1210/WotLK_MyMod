@@ -1,0 +1,892 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{9528CD26-1908-3624-9728-ACF30661BEFE}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>game</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\Debug\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game.dir\Debug\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">game</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\Release\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game.dir\Release\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">game</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\MinSizeRel\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game.dir\MinSizeRel\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">game</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\RelWithDebInfo\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game.dir\RelWithDebInfo\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">game</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    </PropertyGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>gamePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+"K:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/LuaEngine/extensions D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>gamePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+"K:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/LuaEngine/extensions D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>gamePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+"K:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/LuaEngine/extensions D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>gamePCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>gamePCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;TRINITY_API_EXPORT_GAME;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Build\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\static;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\docs\ElunaDoc\templates;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\extensions\StackTracePlus;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+"K:\Program Files\CMake\bin\cmake.exe" -E copy_directory D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/LuaEngine/extensions D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/Scripts/extensions/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt">
+     <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/game/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/game/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\game\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIFactory.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIImpl.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIRegistry.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAISelector.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\Mercenary.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\MercenaryMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\CombatAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GameObjectAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GuardAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PassiveAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PetAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\ReactorAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\TotemAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\UnitAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_Events.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_GridNotifiers.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_ai.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botmgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI\PlayerAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedCreature.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedGossip.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScript.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScriptMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\AccountMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\RBAC.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements\AchievementMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons\AddonMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse\AuctionHouseMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBot.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Battlefield.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\BattlefieldMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones\BattlefieldWG.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Arena.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaScore.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeam.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeamMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Battleground.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundQueue.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundScore.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAB.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAV.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundBE.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundDS.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundEY.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundIC.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundNA.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRL.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRV.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundSA.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundWS.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar\CalendarMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Chat.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\ChatLink.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\Channel.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\ChannelMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\HostileRefManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\ThreatManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\UnitEvents.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\ConditionMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\DisableMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG\Cfbg.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCEnums.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStores.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStructure.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCfmt.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Stores.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Structure.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFG.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGGroupData.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGPlayerData.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGQueue.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGScripts.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse\Corpse.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\Creature.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\CreatureGroups.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\GossipDef.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\TemporarySummon.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject\DynamicObject.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GOMove.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GameObject.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Item.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemEnchantmentMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemTemplate.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Reforging.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Transmogrification.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container\Bag.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Object.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectGuid.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectPosSelector.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Position.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateData.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFields.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateMask.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\Pet.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\PetDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\CinematicMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\KillRewarder.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\Player.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\SocialMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\TradeData.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem\Totem.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport\Transport.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\Unit.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\Vehicle.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\VehicleDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events\GameEventMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectAccessor.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Grid.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridLoader.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridRefManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridReference.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridStates.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\NGrid.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\ObjectGridLoader.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells\Cell.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells\CellImpl.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiers.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiersImpl.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\Group.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupRefManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupReference.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\Guild.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\GuildMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AddonHandler.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\NPCHandler.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceSaveMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceScript.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot\LootMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\AuraMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BattleGroundMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BindingMap.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CorpseMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CreatureMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaCreatureAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaEventMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaIncludes.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaInstanceAI.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaQueryMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaTemplate.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaUtility.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GameObjectMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GlobalMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GroupMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GuildMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\HookHelpers.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\Hooks.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ItemMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaEngine.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\MapMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ObjectMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PlayerMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\QuestMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\SpellMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\UnitMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\VehicleMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\WorldObjectMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\WorldPacketMethods.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\lmarshal.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails\Mail.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\AreaBoundary.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\Map.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapInstanced.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapRefManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapReference.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapUpdater.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\TransportMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\ZoneScript.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\Formulas.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\Language.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\SharedDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerRefManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerReference.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MotionMaster.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGeneratorImpl.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\PathGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSpline.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineFlag.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInit.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInitArgs.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementPacketBuilder.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementTypedefs.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\Spline.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\SplineChain.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\SplineImpl.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints\WaypointManager.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvP.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvPMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools\PoolMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests\QuestDef.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation\ReputationMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptReloadMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptSystem.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packet.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldPacket.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSession.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocket.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocketMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets\AllPackets.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets\PacketUtilities.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\Opcodes.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\PacketLog.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\ServerPktHeader.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillDiscovery.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillExtraItems.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Spell.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellHistory.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellInfo.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellScript.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraDefines.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraEffects.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuras.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\ChatTextBuilder.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\CreatureTextMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets\TicketMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\CharacterDatabaseCleaner.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\PlayerDump.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Warden.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenCheckMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenMac.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenWin.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules\WardenModuleMac.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules\WardenModuleWin.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\Weather.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\WeatherMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World\World.h" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\PrecompiledHeaders\gamePCH.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">gamePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">gamePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">gamePCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">gamePCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIRegistry.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAISelector.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\Mercenary.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\MercenaryMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\CombatAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GameObjectAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GuardAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PassiveAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PetAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\ReactorAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\TotemAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\UnitAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_bm_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_death_knight_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_druid_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_hunter_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_mage_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_paladin_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_priest_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_rogue_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_shaman_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_warlock_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_warrior_ai.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botcommands.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botmgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots\botQ_Airen.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI\PlayerAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedGossip.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScript.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\AccountMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\RBAC.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements\AchievementMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons\AddonMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse\AuctionHouseMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBot.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Battlefield.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\BattlefieldMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones\BattlefieldWG.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Arena.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeam.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeamMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Battleground.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundQueue.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar\CalendarMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Chat.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\ChatLink.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\Channel.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\ChannelMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\HostileRefManager.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\ThreatManager.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\ConditionMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\DisableMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG\Cfbg.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStores.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Stores.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFG.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGGroupData.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGPlayerData.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGQueue.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGScripts.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse\Corpse.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\Creature.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\CreatureGroups.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\GossipDef.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\TemporarySummon.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject\DynamicObject.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GOMove.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GameObject.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Item.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemTemplate.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Reforging.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Transmogrification.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container\Bag.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Object.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectGuid.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectPosSelector.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Position.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateData.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\Pet.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\CinematicMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\KillRewarder.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\Player.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\SocialMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\TradeData.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem\Totem.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport\Transport.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\StatSystem.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\Unit.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\Vehicle.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events\GameEventMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectAccessor.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridStates.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\ObjectGridLoader.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiers.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\Group.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupReference.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\Guild.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\GuildMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AddonHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ArenaTeamHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AuctionHouseHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AuthHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\BattleGroundHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\BattlefieldHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CalendarHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ChannelHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CharacterHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ChatHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CombatHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\DuelHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\GroupHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\GuildHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ItemHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\LFGHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\LootHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MailHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MiscHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MovementHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\NPCHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\PetHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\PetitionsHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\QueryHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\QuestHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ReferAFriendHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\SkillHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\SpellHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TaxiHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TicketHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TradeHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\VehicleHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\VoiceChatHandler.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceSaveMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceScript.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot\LootMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BattleGroundHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CreatureHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaEventMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaInstanceAI.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaUtility.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GameObjectHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GossipHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GroupHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GuildHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\InstanceHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ItemHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaEngine.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaFunctions.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PacketHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PlayerHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ServerHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\VehicleHooks.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\lmarshal.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails\Mail.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\AreaBoundary.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\Map.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapInstanced.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapManager.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapScripts.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapUpdater.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\TransportMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerReference.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MotionMaster.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\PathGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSpline.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInit.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementPacketBuilder.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementUtil.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\Spline.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints\WaypointManager.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvP.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools\PoolMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests\QuestDef.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation\ReputationMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptReloadMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptSystem.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSession.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocket.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocketMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\Opcodes.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\PacketLog.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillDiscovery.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillExtraItems.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Spell.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellEffects.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellHistory.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellInfo.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellScript.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraEffects.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuras.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\CreatureTextMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets\TicketMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\CharacterDatabaseCleaner.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\PlayerDump.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Warden.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenCheckMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenMac.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenWin.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\Weather.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\WeatherMgr.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World\World.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\ZERO_CHECK.vcxproj">
+      <Project>4243996B-82BE-3E4A-9238-163DB338A1A0</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>572A0F31-F6C4-32B9-9882-84F4D0D84BFF</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\common\common.vcxproj">
+      <Project>81AD9C03-081A-3EF2-9FF9-B684CDCA7819</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\cppformat\cppformat.vcxproj">
+      <Project>C9C71127-21BD-34DA-9AB9-C9462B81D570</Project>
+      <Name>cppformat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\database.vcxproj">
+      <Project>23A66501-038B-3F95-A808-0200D4F5D40B</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>5D5400D9-0998-34FB-B77C-C261E7A30121</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\lualib\lualib.vcxproj">
+      <Project>22677D41-7FDD-3BF7-BF40-1D58CD5C5E0A</Project>
+      <Name>lualib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\plugins\plugins.vcxproj">
+      <Project>44C1F113-7A59-3924-8182-4746EEC21E57</Project>
+      <Name>plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\shared\shared.vcxproj">
+      <Project>6299D559-DDD2-3875-9800-561D91F5BACD</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\zlib\zlib.vcxproj">
+      <Project>5EA5D38C-175F-3FBC-B3C8-DD997E32D344</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

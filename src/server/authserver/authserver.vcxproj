@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{2B3DC4B5-C862-33EC-BEBB-8BA3633F2894}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10586.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>authserver</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+ <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\bin\Debug\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">authserver.dir\Debug\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">authserver</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkIncremental>
+     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\bin\Release\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">authserver.dir\Release\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">authserver</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\bin\MinSizeRel\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">authserver.dir\MinSizeRel\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">authserver</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+     <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\bin\RelWithDebInfo\</OutDir>
+     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">authserver.dir\RelWithDebInfo\</IntDir>
+     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">authserver</TargetName>
+     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkIncremental>
+     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E copy D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/authserver.conf.dist D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\Debug\shared.lib;..\database\Debug\database.lib;..\..\common\Debug\common.lib;..\..\..\dep\cppformat\Debug\cppformat.lib;..\..\..\dep\g3dlite\Debug\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Debug\Detour.lib;..\..\..\dep\zlib\Debug\zlib.lib;K:\OpenSSL-Win64\lib\VC\libeay32MD.lib;K:\OpenSSL-Win64\lib\VC\ssleay32MDd.lib;K:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;..\..\..\dep\lualib\Debug\lualib.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_system-vc140-mt-gd-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-gd-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_thread-vc140-mt-gd-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-gd-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_iostreams-vc140-mt-gd-1_60.lib;K:\Program Files\MySQL\MySQL Server 5.6\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/Debug/authserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SingleCore_TC_WotLK_Orig/Build/bin/Debug/authserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E copy D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/authserver.conf.dist D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\Release\shared.lib;..\database\Release\database.lib;..\..\common\Release\common.lib;..\..\..\dep\cppformat\Release\cppformat.lib;..\..\..\dep\g3dlite\Release\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\Release\Detour.lib;..\..\..\dep\zlib\Release\zlib.lib;K:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;..\..\..\dep\lualib\Release\lualib.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_system-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_thread-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_iostreams-vc140-mt-1_60.lib;K:\Program Files\MySQL\MySQL Server 5.6\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/Release/authserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SingleCore_TC_WotLK_Orig/Build/bin/Release/authserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E copy D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/authserver.conf.dist D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\MinSizeRel\shared.lib;..\database\MinSizeRel\database.lib;..\..\common\MinSizeRel\common.lib;..\..\..\dep\cppformat\MinSizeRel\cppformat.lib;..\..\..\dep\g3dlite\MinSizeRel\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\MinSizeRel\Detour.lib;..\..\..\dep\zlib\MinSizeRel\zlib.lib;K:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;..\..\..\dep\lualib\MinSizeRel\lualib.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_system-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_thread-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_iostreams-vc140-mt-1_60.lib;K:\Program Files\MySQL\MySQL Server 5.6\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/MinSizeRel/authserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SingleCore_TC_WotLK_Orig/Build/bin/MinSizeRel/authserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+ <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj /Zc:throwingNew /Zm500</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4351;4091;4996;4355;4244;4985;4267;4619;4512</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ForcedIncludeFiles>authPCH.h</ForcedIncludeFiles>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>authPCH.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4263;4264</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE="$(ConfigurationName)";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_BUILD_DIRECTIVE=\"$(ConfigurationName)\";_WIN32_WINNT=0x0601;_WIN64;_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;ELUNA;TRINITY;WOTLK;NO_CORE_FUNCS;BOOST_DATE_TIME_NO_LIB;BOOST_REGEX_NO_LIB;BOOST_CHRONO_NO_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server;D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\DataStores;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Dynamic\LinkedReference;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Networking;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Packets;D:\SingleCore_TC_WotLK_Orig\Source\src\server\shared\Realm;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Database\Implementation;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\server\database\Updater;D:\SingleCore_TC_WotLK_Orig\Build;D:\SingleCore_TC_WotLK_Orig\Source\src\common;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Management;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Maps;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Collision\Models;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Configuration;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Cryptography\Authentication;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Logging;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Metric;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Threading;D:\SingleCore_TC_WotLK_Orig\Source\src\common\Utilities;K:\local\boost_1_60_0;D:\SingleCore_TC_WotLK_Orig\Source\dep\cppformat;D:\SingleCore_TC_WotLK_Orig\Source\dep\g3dlite\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\zlib;D:\SingleCore_TC_WotLK_Orig\Source\dep\recastnavigation\Detour\Include;D:\SingleCore_TC_WotLK_Orig\Source\dep\SFMT;D:\SingleCore_TC_WotLK_Orig\Source\dep\utf8cpp;K:\OpenSSL-Win64\include;D:\SingleCore_TC_WotLK_Orig\Source\dep\valgrind;D:\SingleCore_TC_WotLK_Orig\Source\dep\lualib;K:\Program Files\MySQL\MySQL Server 5.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -E copy D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/authserver.conf.dist D:/SingleCore_TC_WotLK_Orig/Build/bin/$(ConfigurationName)/
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\shared\RelWithDebInfo\shared.lib;..\database\RelWithDebInfo\database.lib;..\..\common\RelWithDebInfo\common.lib;..\..\..\dep\cppformat\RelWithDebInfo\cppformat.lib;..\..\..\dep\g3dlite\RelWithDebInfo\g3dlib.lib;..\..\..\dep\recastnavigation\Detour\RelWithDebInfo\Detour.lib;..\..\..\dep\zlib\RelWithDebInfo\zlib.lib;K:\OpenSSL-Win64\lib\VC\ssleay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MD.lib;K:\OpenSSL-Win64\lib\VC\libeay32MDd.lib;..\..\..\dep\lualib\RelWithDebInfo\lualib.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_system-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_filesystem-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_thread-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_program_options-vc140-mt-1_60.lib;K:\local\boost_1_60_0\lib64-msvc-14.0\libboost_iostreams-vc140-mt-1_60.lib;K:\Program Files\MySQL\MySQL Server 5.6\lib\libmysql.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/RelWithDebInfo/authserver.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/SingleCore_TC_WotLK_Orig/Build/bin/RelWithDebInfo/authserver.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt">
+     <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+     <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt</Message>
+     <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"K:\Program Files\CMake\bin\cmake.exe" -HD:/SingleCore_TC_WotLK_Orig/Source -BD:/SingleCore_TC_WotLK_Orig/Build --check-stamp-file D:/SingleCore_TC_WotLK_Orig/Build/src/server/authserver/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+     <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:/SingleCore_TC_WotLK_Orig/Source/src/server/authserver/CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+     <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\SingleCore_TC_WotLK_Orig\Build\src\server\authserver\CMakeFiles\generate.stamp</Outputs>
+     <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\resource.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication\AuthCodes.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication\TOTP.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server\AuthSession.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server\AuthSocketMgr.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\WheatyExceptionReport.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform\ServiceWin32.h" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\PrecompiledHeaders\authPCH.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">authPCH.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">authPCH.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Main.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication\AuthCodes.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Authentication\TOTP.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\Server\AuthSession.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\WheatyExceptionReport.cpp"  />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform\ServiceWin32.cpp"  />
+    <ResourceCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\authserver\authserver.rc"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\ZERO_CHECK.vcxproj">
+      <Project>4243996B-82BE-3E4A-9238-163DB338A1A0</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\recastnavigation\Detour\Detour.vcxproj">
+      <Project>572A0F31-F6C4-32B9-9882-84F4D0D84BFF</Project>
+      <Name>Detour</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\common\common.vcxproj">
+      <Project>81AD9C03-081A-3EF2-9FF9-B684CDCA7819</Project>
+      <Name>common</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\cppformat\cppformat.vcxproj">
+      <Project>C9C71127-21BD-34DA-9AB9-C9462B81D570</Project>
+      <Name>cppformat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\database\database.vcxproj">
+      <Project>23A66501-038B-3F95-A808-0200D4F5D40B</Project>
+      <Name>database</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\g3dlite\g3dlib.vcxproj">
+      <Project>5D5400D9-0998-34FB-B77C-C261E7A30121</Project>
+      <Name>g3dlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\lualib\lualib.vcxproj">
+      <Project>22677D41-7FDD-3BF7-BF40-1D58CD5C5E0A</Project>
+      <Name>lualib</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\src\server\shared\shared.vcxproj">
+      <Project>6299D559-DDD2-3875-9800-561D91F5BACD</Project>
+      <Name>shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\SingleCore_TC_WotLK_Orig\Build\dep\zlib\zlib.vcxproj">
+      <Project>5EA5D38C-175F-3FBC-B3C8-DD997E32D344</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

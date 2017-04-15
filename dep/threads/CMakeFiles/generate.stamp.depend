@@ -1,0 +1,8 @@
+# CMake generation dependency list for this directory.
+D:/SingleCore_TC_WotLK_Orig/Source/dep/threads/CMakeLists.txt
+K:/Program Files/CMake/share/cmake-3.8/Modules/FindThreads.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckLibraryExists.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckSymbolExists.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/CheckIncludeFile.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+K:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake

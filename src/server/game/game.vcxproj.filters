@@ -1,0 +1,1713 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\PrecompiledHeaders\gamePCH.cpp">
+      <Filter>PrecompiledHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAI.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIRegistry.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAISelector.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\Mercenary.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\MercenaryMgr.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\CombatAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GameObjectAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GuardAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PassiveAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PetAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\ReactorAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\TotemAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\UnitAI.cpp">
+      <Filter>AI\CoreAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_bm_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_death_knight_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_druid_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_hunter_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_mage_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_paladin_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_priest_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_rogue_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_shaman_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_warlock_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_warrior_ai.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botcommands.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botmgr.cpp">
+      <Filter>AI\NpcBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\QBots\botQ_Airen.cpp">
+      <Filter>AI\NpcBots\QBots</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI\PlayerAI.cpp">
+      <Filter>AI\PlayerAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedCreature.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedEscortAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedGossip.cpp">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartAI.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScript.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScriptMgr.cpp">
+      <Filter>AI\SmartScripts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\AccountMgr.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\RBAC.cpp">
+      <Filter>Accounts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements\AchievementMgr.cpp">
+      <Filter>Achievements</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons\AddonMgr.cpp">
+      <Filter>Addons</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse\AuctionHouseMgr.cpp">
+      <Filter>AuctionHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBot.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.cpp">
+      <Filter>AuctionHouseBot</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Battlefield.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\BattlefieldMgr.cpp">
+      <Filter>Battlefield</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones\BattlefieldWG.cpp">
+      <Filter>Battlefield\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Arena.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeam.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeamMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Battleground.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundMgr.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundQueue.cpp">
+      <Filter>Battlegrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAB.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundBE.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundDS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundEY.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundIC.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundNA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRL.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRV.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundSA.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundWS.cpp">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar\CalendarMgr.cpp">
+      <Filter>Calendar</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Chat.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\ChatLink.cpp">
+      <Filter>Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\Channel.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\ChannelMgr.cpp">
+      <Filter>Chat\Channels</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\HostileRefManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\ThreatManager.cpp">
+      <Filter>Combat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\ConditionMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\DisableMgr.cpp">
+      <Filter>Conditions</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG\Cfbg.cpp">
+      <Filter>CrossFactionBG</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Stores.cpp">
+      <Filter>DataStores</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFG.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGGroupData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGMgr.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGPlayerData.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGQueue.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGScripts.cpp">
+      <Filter>DungeonFinding</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse\Corpse.cpp">
+      <Filter>Entities\Corpse</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\Creature.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\CreatureGroups.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\GossipDef.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\TemporarySummon.cpp">
+      <Filter>Entities\Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject\DynamicObject.cpp">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GOMove.cpp">
+      <Filter>Entities\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GameObject.cpp">
+      <Filter>Entities\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Item.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemEnchantmentMgr.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemTemplate.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Reforging.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Transmogrification.cpp">
+      <Filter>Entities\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container\Bag.cpp">
+      <Filter>Entities\Item\Container</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Object.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectGuid.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectPosSelector.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Position.cpp">
+      <Filter>Entities\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateData.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFieldFlags.cpp">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\Pet.cpp">
+      <Filter>Entities\Pet</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\CinematicMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\KillRewarder.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\Player.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\SocialMgr.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\TradeData.cpp">
+      <Filter>Entities\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem\Totem.cpp">
+      <Filter>Entities\Totem</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport\Transport.cpp">
+      <Filter>Entities\Transport</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\StatSystem.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\Unit.cpp">
+      <Filter>Entities\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\Vehicle.cpp">
+      <Filter>Entities\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events\GameEventMgr.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectAccessor.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectMgr.cpp">
+      <Filter>Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridStates.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\ObjectGridLoader.cpp">
+      <Filter>Grids</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiers.cpp">
+      <Filter>Grids\Notifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\Group.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupMgr.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupReference.cpp">
+      <Filter>Groups</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\Guild.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\GuildMgr.cpp">
+      <Filter>Guilds</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AddonHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ArenaTeamHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AuctionHouseHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AuthHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\BattleGroundHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\BattlefieldHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CalendarHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ChannelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CharacterHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\CombatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\DuelHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\GroupHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\GuildHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ItemHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\LFGHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\LootHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MailHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MiscHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\MovementHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\NPCHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\PetHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\PetitionsHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\QueryHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\QuestHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\ReferAFriendHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\SkillHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\SpellHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TaxiHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TicketHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\TradeHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\VehicleHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\VoiceChatHandler.cpp">
+      <Filter>Handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceSaveMgr.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceScript.cpp">
+      <Filter>Instances</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot\LootMgr.cpp">
+      <Filter>Loot</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BattleGroundHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CreatureHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaEventMgr.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaInstanceAI.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaUtility.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GameObjectHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GossipHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GroupHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GuildHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\InstanceHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ItemHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaEngine.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaFunctions.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PacketHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PlayerHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ServerHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\VehicleHooks.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\lmarshal.cpp">
+      <Filter>LuaEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails\Mail.cpp">
+      <Filter>Mails</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\AreaBoundary.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapInstanced.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapManager.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapScripts.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapUpdater.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\TransportMgr.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerReference.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MotionMaster.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\PathGenerator.cpp">
+      <Filter>Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\PointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.cpp">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSpline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInit.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementPacketBuilder.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementUtil.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\Spline.cpp">
+      <Filter>Movement\Spline</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints\WaypointManager.cpp">
+      <Filter>Movement\Waypoints</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvP.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvPMgr.cpp">
+      <Filter>OutdoorPvP</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools\PoolMgr.cpp">
+      <Filter>Pools</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests\QuestDef.cpp">
+      <Filter>Quests</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation\ReputationMgr.cpp">
+      <Filter>Reputation</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptReloadMgr.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptSystem.cpp">
+      <Filter>Scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSession.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocket.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocketMgr.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\Opcodes.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\PacketLog.cpp">
+      <Filter>Server\Protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillDiscovery.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillExtraItems.cpp">
+      <Filter>Skills</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Spell.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellEffects.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellHistory.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellInfo.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellMgr.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellScript.cpp">
+      <Filter>Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraEffects.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuras.cpp">
+      <Filter>Spells\Auras</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\CreatureTextMgr.cpp">
+      <Filter>Texts</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets\TicketMgr.cpp">
+      <Filter>Tickets</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\CharacterDatabaseCleaner.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\PlayerDump.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Warden.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenCheckMgr.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenMac.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenWin.cpp">
+      <Filter>Warden</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\Weather.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\WeatherMgr.cpp">
+      <Filter>Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAI.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIFactory.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIImpl.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAIRegistry.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CreatureAISelector.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\Mercenary.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\MercenaryMgr.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\CombatAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GameObjectAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\GuardAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PassiveAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\PetAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\ReactorAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\TotemAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\CoreAI\UnitAI.h">
+      <Filter>AI\CoreAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_Events.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_GridNotifiers.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\bot_ai.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\NpcBots\botmgr.h">
+      <Filter>AI\NpcBots</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\PlayerAI\PlayerAI.h">
+      <Filter>AI\PlayerAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedCreature.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedEscortAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedFollowerAI.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\ScriptedAI\ScriptedGossip.h">
+      <Filter>AI\ScriptedAI</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartAI.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScript.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AI\SmartScripts\SmartScriptMgr.h">
+      <Filter>AI\SmartScripts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\AccountMgr.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Accounts\RBAC.h">
+      <Filter>Accounts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Achievements\AchievementMgr.h">
+      <Filter>Achievements</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Addons\AddonMgr.h">
+      <Filter>Addons</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouse\AuctionHouseMgr.h">
+      <Filter>AuctionHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBot.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotBuyer.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\AuctionHouseBot\AuctionHouseBotSeller.h">
+      <Filter>AuctionHouseBot</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Battlefield.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\BattlefieldMgr.h">
+      <Filter>Battlefield</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlefield\Zones\BattlefieldWG.h">
+      <Filter>Battlefield\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Arena.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeam.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\ArenaTeamMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Battleground.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundMgr.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundQueue.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\BattlegroundScore.h">
+      <Filter>Battlegrounds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAB.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundAV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundBE.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundDS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundEY.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundIC.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundNA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRL.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundRV.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundSA.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Battlegrounds\Zones\BattlegroundWS.h">
+      <Filter>Battlegrounds\Zones</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Calendar\CalendarMgr.h">
+      <Filter>Calendar</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Chat.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\ChatLink.h">
+      <Filter>Chat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\Channel.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Chat\Channels\ChannelMgr.h">
+      <Filter>Chat\Channels</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\HostileRefManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\ThreatManager.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Combat\UnitEvents.h">
+      <Filter>Combat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\ConditionMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Conditions\DisableMgr.h">
+      <Filter>Conditions</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CrossFactionBG\Cfbg.h">
+      <Filter>CrossFactionBG</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCEnums.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCStructure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\DBCfmt.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Stores.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DataStores\M2Structure.h">
+      <Filter>DataStores</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFG.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGGroupData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGMgr.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGPlayerData.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGQueue.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\DungeonFinding\LFGScripts.h">
+      <Filter>DungeonFinding</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Corpse\Corpse.h">
+      <Filter>Entities\Corpse</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\Creature.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\CreatureGroups.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\GossipDef.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Creature\TemporarySummon.h">
+      <Filter>Entities\Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\DynamicObject\DynamicObject.h">
+      <Filter>Entities\DynamicObject</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GOMove.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\GameObject\GameObject.h">
+      <Filter>Entities\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Item.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemEnchantmentMgr.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\ItemTemplate.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Reforging.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Transmogrification.h">
+      <Filter>Entities\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Item\Container\Bag.h">
+      <Filter>Entities\Item\Container</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Object.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectDefines.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectGuid.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\ObjectPosSelector.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Position.h">
+      <Filter>Entities\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateData.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFieldFlags.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateFields.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Object\Updates\UpdateMask.h">
+      <Filter>Entities\Object\Updates</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\Pet.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Pet\PetDefines.h">
+      <Filter>Entities\Pet</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\CinematicMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\KillRewarder.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\Player.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\SocialMgr.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Player\TradeData.h">
+      <Filter>Entities\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Totem\Totem.h">
+      <Filter>Entities\Totem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Transport\Transport.h">
+      <Filter>Entities\Transport</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Unit\Unit.h">
+      <Filter>Entities\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\Vehicle.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Entities\Vehicle\VehicleDefines.h">
+      <Filter>Entities\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Events\GameEventMgr.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectAccessor.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Globals\ObjectMgr.h">
+      <Filter>Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Grid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridDefines.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridRefManager.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridReference.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\GridStates.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\NGrid.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\ObjectGridLoader.h">
+      <Filter>Grids</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells\Cell.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Cells\CellImpl.h">
+      <Filter>Grids\Cells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiers.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Grids\Notifiers\GridNotifiersImpl.h">
+      <Filter>Grids\Notifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\Group.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupMgr.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupRefManager.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Groups\GroupReference.h">
+      <Filter>Groups</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\Guild.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Guilds\GuildMgr.h">
+      <Filter>Guilds</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\AddonHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Handlers\NPCHandler.h">
+      <Filter>Handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceSaveMgr.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Instances\InstanceScript.h">
+      <Filter>Instances</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Loot\LootMgr.h">
+      <Filter>Loot</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\AuraMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BattleGroundMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\BindingMap.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CorpseMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\CreatureMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaCreatureAI.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaEventMgr.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaIncludes.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaInstanceAI.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaQueryMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaTemplate.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ElunaUtility.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GameObjectMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GlobalMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GroupMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\GuildMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\HookHelpers.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\Hooks.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ItemMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\LuaEngine.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\MapMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\ObjectMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\PlayerMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\QuestMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\SpellMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\UnitMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\VehicleMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\WorldObjectMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\WorldPacketMethods.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\LuaEngine\lmarshal.h">
+      <Filter>LuaEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Mails\Mail.h">
+      <Filter>Mails</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\AreaBoundary.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapInstanced.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapRefManager.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapReference.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\MapUpdater.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\TransportMgr.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Maps\ZoneScript.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\Formulas.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\Language.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Miscellaneous\SharedDefines.h">
+      <Filter>Miscellaneous</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerRefManager.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\FollowerReference.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MotionMaster.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGeneratorImpl.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\PathGenerator.h">
+      <Filter>Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\ConfusedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\FleeingMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\HomeMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\IdleMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\PointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\RandomMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\SplineChainMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\TargetedMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\MovementGenerators\WaypointMovementGenerator.h">
+      <Filter>Movement\MovementGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSpline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineFlag.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInit.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MoveSplineInitArgs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementPacketBuilder.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\MovementTypedefs.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\Spline.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\SplineChain.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Spline\SplineImpl.h">
+      <Filter>Movement\Spline</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Movement\Waypoints\WaypointManager.h">
+      <Filter>Movement\Waypoints</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvP.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\OutdoorPvP\OutdoorPvPMgr.h">
+      <Filter>OutdoorPvP</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Pools\PoolMgr.h">
+      <Filter>Pools</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Quests\QuestDef.h">
+      <Filter>Quests</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Reputation\ReputationMgr.h">
+      <Filter>Reputation</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptReloadMgr.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Scripting\ScriptSystem.h">
+      <Filter>Scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packet.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldPacket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSession.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocket.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\WorldSocketMgr.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets\AllPackets.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Packets\PacketUtilities.h">
+      <Filter>Server\Packets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\Opcodes.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\PacketLog.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Server\Protocol\ServerPktHeader.h">
+      <Filter>Server\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillDiscovery.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Skills\SkillExtraItems.h">
+      <Filter>Skills</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Spell.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellHistory.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellInfo.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellMgr.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\SpellScript.h">
+      <Filter>Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraDefines.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuraEffects.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Spells\Auras\SpellAuras.h">
+      <Filter>Spells\Auras</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\ChatTextBuilder.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Texts\CreatureTextMgr.h">
+      <Filter>Texts</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tickets\TicketMgr.h">
+      <Filter>Tickets</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\CharacterDatabaseCleaner.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Tools\PlayerDump.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Warden.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenCheckMgr.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenMac.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\WardenWin.h">
+      <Filter>Warden</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules\WardenModuleMac.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Warden\Modules\WardenModuleWin.h">
+      <Filter>Warden\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\Weather.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\Weather\WeatherMgr.h">
+      <Filter>Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\World\World.h">
+      <Filter>World</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\game\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Movement\MovementGenerators">
+      <UniqueIdentifier>{B45F50DE-E2DC-30C1-9747-53B0F0E3253C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Spline">
+      <UniqueIdentifier>{DBAFEC62-08ED-34E2-8EB1-3BBD8B745017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement\Waypoints">
+      <UniqueIdentifier>{A3E7855E-A386-353B-8D1A-5B9D8C8DF8C5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Cells">
+      <UniqueIdentifier>{A68E4B11-EE0F-3D4B-9EB2-C02D2568C858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids\Notifiers">
+      <UniqueIdentifier>{B6E5B849-B875-3179-BEC4-A31B4824940B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packets">
+      <UniqueIdentifier>{4002ED1E-E8D0-3896-8DD0-CA0A412647BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Protocol">
+      <UniqueIdentifier>{6D14D6D4-5939-3E19-8293-087FBF0F4016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\CoreAI">
+      <UniqueIdentifier>{30D3DBE8-9B12-3D13-B5CD-BA4EF7840007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\NpcBots">
+      <UniqueIdentifier>{61C05A2F-1084-3A2D-A587-E1D8A7CE2B86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\PlayerAI">
+      <UniqueIdentifier>{8EFB27B9-6CAE-3A86-B9EF-2CAD09337AB6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\ScriptedAI">
+      <UniqueIdentifier>{780C80A3-1AB5-361A-8CDC-9C02284C424A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\SmartScripts">
+      <UniqueIdentifier>{F7721EB7-7017-3812-99F9-80B8D01E35AF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Corpse">
+      <UniqueIdentifier>{4389562B-41B1-3DA4-BD54-0714ACF44C03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Creature">
+      <UniqueIdentifier>{E1493133-4D9F-38BC-A0D0-9F71F46314D6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\DynamicObject">
+      <UniqueIdentifier>{0E281850-BD5C-301C-B34D-C582E379639E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\GameObject">
+      <UniqueIdentifier>{99D25201-5ACB-3694-B37E-3DF490734D30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item">
+      <UniqueIdentifier>{B647B6A5-06C8-370C-AFA9-EE6746AB628C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object">
+      <UniqueIdentifier>{DB0F0F38-FF42-3E90-983A-BE6925DD2AFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Pet">
+      <UniqueIdentifier>{6623BA70-B8D6-3B5A-837C-6F4A33B4CD74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Player">
+      <UniqueIdentifier>{4259740F-AE68-3D57-B96E-A2182A443E4E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Totem">
+      <UniqueIdentifier>{CB6AF66E-EFB4-3BDC-8C2A-58C122953C0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Transport">
+      <UniqueIdentifier>{7168B5D4-5A9D-3542-9DD3-0C8A24756819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Unit">
+      <UniqueIdentifier>{55E28702-354D-391E-BCD9-0AD09D843124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Vehicle">
+      <UniqueIdentifier>{E4ADE3F4-4F89-3C21-BCF9-D85EBBDAC31C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat\Channels">
+      <UniqueIdentifier>{8BBA5DBF-3377-3B69-A094-5E7A1488D460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Item\Container">
+      <UniqueIdentifier>{76C8EB6D-F5F5-3B04-A07A-3EAA067187B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden\Modules">
+      <UniqueIdentifier>{1D14659F-6E7A-3B7F-A81A-70120293DB0E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI\NpcBots\QBots">
+      <UniqueIdentifier>{2C216376-7B5D-35B5-89EF-64DB80752A92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield\Zones">
+      <UniqueIdentifier>{FF798002-6F23-3BE5-874E-5982B148B4FC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds\Zones">
+      <UniqueIdentifier>{6BB47FAD-A866-3473-A618-5F6845F1E46B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities\Object\Updates">
+      <UniqueIdentifier>{7F6CA885-5CBF-3859-89D5-47210BEC6F19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells\Auras">
+      <UniqueIdentifier>{F71598E5-728C-3924-9A60-BD5276AC1052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AI">
+      <UniqueIdentifier>{EC76D2E4-420E-3491-93CE-423245655740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Accounts">
+      <UniqueIdentifier>{D45E3EB2-83A9-39B2-88EF-9182A99CB3BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Achievements">
+      <UniqueIdentifier>{E711F883-4C5A-3BAE-A056-67C8B82F0594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Addons">
+      <UniqueIdentifier>{B1E3F106-731A-3615-9985-99A6FA813FE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouse">
+      <UniqueIdentifier>{FC9C409B-7C83-3A36-BEB6-B8B39C0AC844}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AuctionHouseBot">
+      <UniqueIdentifier>{06D500AB-C9B6-3687-A2B9-F20E46C7518E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlefield">
+      <UniqueIdentifier>{82708B5B-AA2F-3B31-B654-36FB8E735C48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Battlegrounds">
+      <UniqueIdentifier>{BF27C44C-4730-355B-89E2-C58DEDEF1881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calendar">
+      <UniqueIdentifier>{90AAD2B4-63D6-3972-AF03-F72D057D1394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chat">
+      <UniqueIdentifier>{4A60F830-D855-34AE-8C32-71140A21EBCD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Combat">
+      <UniqueIdentifier>{C2840584-29FE-3671-AC71-0B2C4D75FF0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Conditions">
+      <UniqueIdentifier>{D1C115B5-A5CC-34CC-A453-9391A6AE6A6C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CrossFactionBG">
+      <UniqueIdentifier>{5A95632B-3E79-3EA7-8D81-A92A1DC611C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStores">
+      <UniqueIdentifier>{92D58422-7B69-3377-8923-00C4511FA548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DungeonFinding">
+      <UniqueIdentifier>{5EC7C025-4729-340A-A1B7-71F3E95E7B26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{9B18FC31-5B2C-39FF-93CE-CF53E98A7545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{B30130D2-14DD-39BC-B830-F6D593356DC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Globals">
+      <UniqueIdentifier>{A16A23C4-6771-3B25-BEA4-7FB9FD273302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grids">
+      <UniqueIdentifier>{D221E047-7260-39D4-98F0-E48757CEBFCF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Groups">
+      <UniqueIdentifier>{25EF1F0C-B290-39CA-BFB9-4DD70615324A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Guilds">
+      <UniqueIdentifier>{49E5F6D7-F731-3CF0-99E7-9982E25AF0D2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Handlers">
+      <UniqueIdentifier>{7FB5248C-58A3-3FF7-862D-9F4ACC31DE53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instances">
+      <UniqueIdentifier>{1A178EE5-7AB8-3BCD-AAD7-7B61ECCF3913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Loot">
+      <UniqueIdentifier>{4643DC76-3591-36C6-B28A-EFD43F09D5FA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LuaEngine">
+      <UniqueIdentifier>{2A9829DE-BD2E-32D6-AB4A-BC14B626ECA2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mails">
+      <UniqueIdentifier>{1FF9B853-BAA1-3D9C-86A8-527347DAA328}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{472B5C7A-FE60-38CF-843B-44E06295AF5E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Miscellaneous">
+      <UniqueIdentifier>{EDE06610-BCD3-373F-AD72-15D8906BDCA6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Movement">
+      <UniqueIdentifier>{62BD7C03-6CCF-39B4-A750-6370299020A1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OutdoorPvP">
+      <UniqueIdentifier>{5D5AA736-4D20-3E27-8D3D-4242A902DB8F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{E7689B02-A3C4-3CFF-A0B9-1EA3497869C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrecompiledHeaders">
+      <UniqueIdentifier>{E8F9EA78-40D9-3AA4-8EF1-C6A5F694D4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quests">
+      <UniqueIdentifier>{C6D51F0D-5797-375A-B727-16E1DBB86A49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reputation">
+      <UniqueIdentifier>{BA6DAD64-0B00-3B91-8DCF-57170E62C087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scripting">
+      <UniqueIdentifier>{362C99EE-ACD6-3FE7-83A3-68FBED6A58DB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{7C34CBC3-332F-3F81-95F4-63AFABEDDB31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skills">
+      <UniqueIdentifier>{8142D0AB-EAE6-34C2-A5AB-AB07B39FE6E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spells">
+      <UniqueIdentifier>{7A9E4B42-9622-34AD-AA20-7408F3DE0DB4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Texts">
+      <UniqueIdentifier>{D2A092C0-9594-3450-B166-E94983192ACD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tickets">
+      <UniqueIdentifier>{70F6AC4C-3F0C-360B-8764-0ED03D0355CC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{A3AE3E47-DE1F-375C-9A1E-4601C3ADB4C3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Warden">
+      <UniqueIdentifier>{93AA7E2B-4EAE-320B-9D24-8A7ED4FB173E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Weather">
+      <UniqueIdentifier>{A68606FC-85E6-38D5-A2BF-364145EAC6D3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{ACDF63E1-459D-3847-BD9F-96741FFE78DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

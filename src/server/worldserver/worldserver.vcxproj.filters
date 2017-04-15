@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\PrecompiledHeaders\worldPCH.cpp">
+      <Filter>PrecompiledHeaders</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\Main.cpp" />
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\CommandLine\CliRunnable.cpp">
+      <Filter>CommandLine</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\RemoteAccess\RASession.cpp">
+      <Filter>RemoteAccess</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\TCSoap\TCSoap.cpp">
+      <Filter>TCSoap</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\WheatyExceptionReport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform\ServiceWin32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\resource.h" />
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\CommandLine\CliRunnable.h">
+      <Filter>CommandLine</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\RemoteAccess\RASession.h">
+      <Filter>RemoteAccess</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\TCSoap\TCSoap.h">
+      <Filter>TCSoap</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Debugging\WheatyExceptionReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\SingleCore_TC_WotLK_Orig\Source\src\common\Platform\ServiceWin32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="D:\SingleCore_TC_WotLK_Orig\Source\src\server\worldserver\worldserver.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9F00AD55-676F-3F2F-97BB-6251354C929A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{ADF6FE57-B70C-3D6A-93AD-0C3E97C1C0A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandLine">
+      <UniqueIdentifier>{F4E26679-6F49-3E07-BCF5-5444AE05CA2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PrecompiledHeaders">
+      <UniqueIdentifier>{E8F9EA78-40D9-3AA4-8EF1-C6A5F694D4D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RemoteAccess">
+      <UniqueIdentifier>{9C5C7D6D-4DA3-3165-AA6C-597F1FD6CFAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TCSoap">
+      <UniqueIdentifier>{2709E744-D78E-3EF9-8E41-D0F565927A8D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
